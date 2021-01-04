@@ -1,0 +1,120 @@
+body {
+  /*background-image: url("../images/bloodspatter.png"); bron: http://pngimg.com/download/6146  https://stackoverflow.com/questions/4810927/how-to-go-up-a-level-in-the-src-path-of-a-url-in-html*/
+  color: #fff;
+  font-family: arial;
+
+}
+
+/* Dexter image in the header */
+header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+/* takes away bullets */
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* takes away padding ul */
+ul {
+  padding: 0;
+}
+
+/* container of contents */
+#container {
+  background: #333;
+  width: 960px;
+  margin: 30px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* navigation links */
+nav {
+  height: 40px;
+  background: #666;
+}
+
+nav ul {
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+}
+
+/* characters page */
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 900px;
+}
+
+.flex-item {
+  border: 1px solid white;
+  padding: 10px;
+  width: 250px;
+  margin: 10px;
+}
+
+.flex-item img {
+  float: left;
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+}
+
+.flex-item p {
+  display: inline-flex;
+}
+
+/* episodes page */
+.list-seasons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-episodes {
+  margin: 10px;
+}
+
+.list-trailer {
+  display: inline-block;
+}
+
+/* contact page */
+form{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-area{
+    width: 500px;
+    border: 1px solid white;
+    margin: 10px 50px;
+}
+
+form input, textarea{
+  width: 50%;
+
+}
+form button{
+  width: 50%;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #666;
+  margin-top: 30px;
+}
